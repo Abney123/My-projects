@@ -128,5 +128,5 @@ The number of habitats only go from 0 to 5 (inclusive)!
 ---""")
         except ValueError:
             print("""---
-Please don't use a word when you should put a number between 0 and 5 (inclusive)!
+Please put a number between 0 and 5 (inclusive)!
 ---""")
