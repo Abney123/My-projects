@@ -1,8 +1,0 @@
-""" The problem is - If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
- Find the sum of all the multiples of 3 or 5 below 1000. """
-
-multiple_sum = 0  # Sets a variable which will later be the answer to the problem
-for i in range(1000):  # Starts a for loop to iterate through every integer between from 0 to 999 (Due to the specified number being excluded)
-    if i % 3 == 0 or i % 5 == 0:  # A nested if statement to check if the current integer is a multiple of 3 or 5 (The % meaning modulo so checks if there is a remainder)
-        multiple_sum += i  # Adds the current integer to the multiple_sum variable if it is a multiple of 3 or 5 (+= is a simplified way of writing multiple_sum + i)
-print(multiple_sum)  # Prints the final answer after the for loop has finished iterating!
