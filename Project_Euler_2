@@ -1,0 +1,8 @@
+fibonacci_sum = 0
+x = 1
+y = 1
+while x + y < 4000000:
+    x, y = y, x + y
+    if y % 2 == 0:
+        fibonacci_sum += y
+print(fibonacci_sum)
